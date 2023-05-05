@@ -1,0 +1,8 @@
+wikihow-ordered:
+  id: wikihow-ordered.dev.v0
+  metrics: [accuracy]
+
+wikihow-ordered.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: wikihow-ordered/samples.jsonl
